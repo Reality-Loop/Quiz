@@ -1,0 +1,20 @@
+{
+  "dataset_kind": "synthetic_fixture",
+  "generator_seed": 20260914,
+  "expert_annotated": false,
+  "real_laboratories": 0,
+  "real_video_hours": 0,
+  "purpose": "Recruiting exercise and software tests, NOT wet-lab benchmark results.",
+  "splits": {
+    "train": 24,
+    "dev_iid": 8,
+    "dev_ood": 8
+  },
+  "hidden_test_included": false,
+  "timing_units": "seconds",
+  "observation_rate_hz": 1,
+  "error_types": [
+    "wrong_target",
+    "missing_mix"
+  ]
+}

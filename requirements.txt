@@ -1,0 +1,2 @@
+# No third-party dependencies are required for the core challenge.
+# Python 3.10+; tested environment is recorded in VALIDATION.md.

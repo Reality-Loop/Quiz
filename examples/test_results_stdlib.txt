@@ -1,0 +1,49 @@
+test_backdated_alarm_fails (test_core.ContractTests.test_backdated_alarm_fails) ... ok
+test_baseline_metrics_finite_and_synthetic_flag (test_core.ContractTests.test_baseline_metrics_finite_and_synthetic_flag) ... ok
+test_candidate_cannot_supply_alarm_timestamp (test_core.ContractTests.test_candidate_cannot_supply_alarm_timestamp) ... ok
+test_duplicate_episode_ids_fail (test_core.ContractTests.test_duplicate_episode_ids_fail) ... ok
+test_duplicate_timestamp_fails (test_core.ContractTests.test_duplicate_timestamp_fails) ... ok
+test_first_view_mode_rejects_second_view_evidence (test_core.ContractTests.test_first_view_mode_rejects_second_view_evidence) ... ok
+test_fixed_latency_is_applied_by_runner (test_core.ContractTests.test_fixed_latency_is_applied_by_runner) ... ok
+test_fixture_and_labels_valid (test_core.ContractTests.test_fixture_and_labels_valid) ... ok
+test_future_camera_timestamp_fails (test_core.ContractTests.test_future_camera_timestamp_fails) ... ok
+test_future_evidence_fails (test_core.ContractTests.test_future_evidence_fails) ... ok
+test_missing_explicit_null_pnr_fails (test_core.ContractTests.test_missing_explicit_null_pnr_fails) ... ok
+test_missing_predictions_fail (test_core.ContractTests.test_missing_predictions_fail) ... ok
+test_mutating_agent_cannot_change_inputs (test_core.ContractTests.test_mutating_agent_cannot_change_inputs) ... ok
+test_nan_score_fails (test_core.ContractTests.test_nan_score_fails) ... ok
+test_prefix_api_has_no_future_or_labels (test_core.ContractTests.test_prefix_api_has_no_future_or_labels) ... ok
+test_prefix_invariance (test_core.ContractTests.test_prefix_invariance) ... ok
+test_real_gt_cannot_be_synthetic (test_core.ContractTests.test_real_gt_cannot_be_synthetic) ... ok
+test_submission_contract_is_runnable (test_core.ContractTests.test_submission_contract_is_runnable) ... ok
+test_cross_split_trial_leak_fails (test_core.DatasetTests.test_cross_split_trial_leak_fails) ... ok
+test_generate_audit_and_refuse_unintentional_overwrite (test_core.DatasetTests.test_generate_audit_and_refuse_unintentional_overwrite) ... ok
+test_invalid_json_nan_fails (test_core.DatasetTests.test_invalid_json_nan_fails) ... ok
+test_renamed_exact_duplicate_content_fails (test_core.DatasetTests.test_renamed_exact_duplicate_content_fails) ... ok
+test_alarm_at_pnr_is_not_timely (test_core.MetricTests.test_alarm_at_pnr_is_not_timely) ... ok
+test_alarm_before_occurrence_is_anticipation (test_core.MetricTests.test_alarm_before_occurrence_is_anticipation) ... ok
+test_alert_after_episode_window_is_fp (test_core.MetricTests.test_alert_after_episode_window_is_fp) ... ok
+test_duplicate_alert_is_false_positive (test_core.MetricTests.test_duplicate_alert_is_false_positive) ... ok
+test_empty_metrics_are_undefined_not_perfect (test_core.MetricTests.test_empty_metrics_are_undefined_not_perfect) ... ok
+test_iou_overlap (test_core.MetricTests.test_iou_overlap) ... ok
+test_iou_touching_intervals (test_core.MetricTests.test_iou_touching_intervals) ... ok
+test_iou_zero_length (test_core.MetricTests.test_iou_zero_length) ... ok
+test_max_matching_not_greedy (test_core.MetricTests.test_max_matching_not_greedy) ... ok
+test_missed_event_f1_zero (test_core.MetricTests.test_missed_event_f1_zero) ... ok
+test_no_error_episode_penalizes_false_alarm (test_core.MetricTests.test_no_error_episode_penalizes_false_alarm) ... ok
+test_no_opportunity_not_unfairly_in_denominator (test_core.MetricTests.test_no_opportunity_not_unfairly_in_denominator) ... ok
+test_null_detectable_is_excluded (test_core.MetricTests.test_null_detectable_is_excluded) ... ok
+test_null_pnr_is_excluded (test_core.MetricTests.test_null_pnr_is_excluded) ... ok
+test_one_alarm_cannot_detect_two_events (test_core.MetricTests.test_one_alarm_cannot_detect_two_events) ... ok
+test_repeated_step_segments_are_not_collapsed_across_gaps (test_core.MetricTests.test_repeated_step_segments_are_not_collapsed_across_gaps) ... ok
+test_too_early_without_observable_evidence_is_fp (test_core.MetricTests.test_too_early_without_observable_evidence_is_fp) ... ok
+test_wrong_entity_does_not_match (test_core.MetricTests.test_wrong_entity_does_not_match) ... ok
+test_local_http_transport_with_mock_not_a_real_model (test_video.OllamaTransportTests.test_local_http_transport_with_mock_not_a_real_model) ... ok
+test_remote_upload_disabled_by_default (test_video.OllamaTransportTests.test_remote_upload_disabled_by_default) ... ok
+test_actual_mp4_decode_and_dry_run (test_video.VideoDecodeTests.test_actual_mp4_decode_and_dry_run) ... skipped 'optional OpenCV not installed'
+test_missing_video_reports_error (test_video.VideoDecodeTests.test_missing_video_reports_error) ... skipped 'optional OpenCV not installed'
+
+----------------------------------------------------------------------
+Ran 44 tests in 0.257s
+
+OK (skipped=2)

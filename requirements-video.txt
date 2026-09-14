@@ -1,0 +1,3 @@
+# OPTIONAL: core challenge and tests need only the Python standard library.
+# The video bridge imports OpenCV lazily. Install in a separate environment if desired.
+opencv-python-headless>=4.10,<5
